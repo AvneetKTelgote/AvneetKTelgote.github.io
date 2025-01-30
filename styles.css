@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* New styles for the skills section */
+.skills {
+    font-style: italic;
+    white-space: nowrap;
+    color: #555;
+}
+
+.skills::before {
+    content: '';
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.skills {
+    margin-top: 5px;
+}
+
+.skills span {
+    margin-right: 10px;
+}
+
+.skills::after {
+    content: '';
+    display: inline-block;
+    margin-left: 5px;
+}
