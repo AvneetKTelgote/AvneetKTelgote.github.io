@@ -14,3 +14,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+// Get the button
+const backToTopBtn = document.getElementById('backToTopBtn');
+
+// When the user scrolls down 100px from the top of the document, show the button
+window.onscroll = function() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    backToTopBtn.classList.add('show');
+  } else {
+    backToTopBtn.classList.remove('show');
+  }
+};
+
+// When the button is clicked, scroll to the top
+backToTopBtn.onclick = function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
