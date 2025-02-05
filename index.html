@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Avneet K Telgote - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <header>
         <h1>Avneet Kumar Telgote</h1>
         <p>Tech Lead @ Infosys | Ex-IBM</p>
@@ -20,37 +34,34 @@
 
     <!-- Experience Section -->
     <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-        <li>
-            <h3>Infosys</h3>
-            <p><strong>Tech Lead</strong> - 2019 - Present</p>
-            <p>As a Tech Lead at Infosys, I utilize AI and RPA to address complex business challenges. I collaborate with cross-functional teams to design and implement tailored solutions that enhance efficiency and streamline operations for our clients.</p>
-            <p><em class="skills">AI & Machine Learning | Robotic Process Automation (RPA) | Project Management | Cross-functional Team Collaboration</em></p>
-        </li>
-        <li>
-            <h3>IBM</h3>
-            <p><strong>Application Developer</strong> - 2017 - 2019</p>
-            <p>At IBM, I worked with C#.NET to develop solutions that optimized processes and improved user experience. I managed key customer-facing web applications, overseeing its development and ensuring the successful delivery of projects.</p>
-            <p><em class="skills">C#.NET | Web Application Development | Customer-facing Solutions | Full Project Lifecycle Management</em></p>
-        </li>
-    </ul>
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Infosys</h3>
+                <p><strong>Tech Lead</strong> - 2019 - Present</p>
+                <p>As a Tech Lead at Infosys, I utilize AI and RPA to address complex business challenges. I collaborate with cross-functional teams to design and implement tailored solutions that enhance efficiency and streamline operations for our clients.</p>
+                <p><em class="skills">AI & Machine Learning | Robotic Process Automation (RPA) | Project Management | Cross-functional Team Collaboration</em></p>
+            </li>
+            <li>
+                <h3>IBM</h3>
+                <p><strong>Application Developer</strong> - 2017 - 2019</p>
+                <p>At IBM, I worked with C#.NET to develop solutions that optimized processes and improved user experience. I managed key customer-facing web applications, overseeing its development and ensuring the successful delivery of projects.</p>
+                <p><em class="skills">C#.NET | Web Application Development | Customer-facing Solutions | Full Project Lifecycle Management</em></p>
+            </li>
+        </ul>
     </section>
-
-
-
 
     <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
         <ul>
             <li>
-                <h3>Project 1</h3>
-                <p>Description of project 1. <a href="https://github.com/yourusername/project1">View on GitHub</a></p>
+                <h3>RPA - Automated Infosys HR Operations</h3>
+                <p>The HR team previously managed the creation and population of offer data sheets manually, which included critical employee offer details such as proposed salary. This data was sourced from backend systems and copied to an Excel sheet, then converted into a Word document for approval. After receiving the approved Word file, the updated details were re-entered into the backend systems. To streamline this process, I developed an automated RPA solution that eliminated manual data transfer and document handling, significantly reducing processing time and human error. This automation not only improved the productivity of 80 recruiting team members but also accelerated the employee acquisition process, enabling faster and more efficient candidate onboarding. The solution had a profound impact on the hiring process across the organization, enhancing the speed and accuracy of offer management.</p>
             </li>
             <li>
-                <h3>Project 2</h3>
-                <p>Description of project 2. <a href="https://github.com/yourusername/project2">View on GitHub</a></p>
+                <h3>C# - RPA Robot Monitoring and Alerting functionality</h3>
+                <p>In earlier versions of the AssistEdge RPA tool (18.2 and 19.0), the lack of robot monitoring and alerting functionality caused significant issues. When a robot went down outside of its scheduled runtime, transaction processing would halt, and manual intervention was required to log into the servers where robots were deployed and restart them via the admin dashboard. I developed a solution from the ground up by utilizing existing APIs to implement a robust robot monitoring and automated alerting system, along with an automated bot restart operation. This solution greatly improved operational efficiency by minimizing downtime and was successfully implemented across multiple client environments.</p>
             </li>
         </ul>
     </section>
@@ -58,13 +69,17 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedin">linkedin.com/in/yourlinkedin</a></p>
+        <p>Email: <a href="mailto:avneettelgote@gmail.com">avneettelgote@gmail.com</a></p>
+        <a href="https://www.linkedin.com/in/avneet-kumar-telgote-88a4a4ba/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/linkedin-icon.png" alt="LinkedIn" style="width: 90px; height: 50px;">
+        </a>
     </section>
 
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Avneet Kumar Telgote. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
+
 </html>
